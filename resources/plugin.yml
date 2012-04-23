@@ -1,0 +1,5 @@
+name: @NAME@
+description: Create water when at least two sources are supplying to same block
+version: @VERSION@
+author: @AUTHOR@
+main: @MAIN@
