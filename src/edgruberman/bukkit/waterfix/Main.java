@@ -36,7 +36,7 @@ public final class Main extends JavaPlugin implements Listener {
 
             if (to.getRelative(direction).getData() != Main.WATER_FULL) continue;
 
-            to.setTypeIdAndData(Material.STATIONARY_WATER.getId(), (byte) 0, true);
+            to.setTypeIdAndData(Material.STATIONARY_WATER.getId(), Main.WATER_FULL, true);
             event.setCancelled(true);
             break;
         }
