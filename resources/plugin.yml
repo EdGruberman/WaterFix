@@ -1,5 +1,6 @@
-name: @NAME@
-description: Create water when at least two sources are supplying to same block
+name: WaterFix
 version: @VERSION@
-author: @AUTHOR@
-main: @MAIN@
+description: Create water when at least two sources are supplying to same block
+author: EdGruberman (ed@rjump.com)
+website: http://github.com/EdGruberman/WaterFix
+main: edgruberman.bukkit.waterfix.Main
