@@ -1,5 +1,6 @@
 package edgruberman.bukkit.waterfix;
 
+import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
@@ -14,7 +15,7 @@ public final class Main extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
-        this.getServer().getPluginManager().registerEvents(this, this);
+        Bukkit.getPluginManager().registerEvents(this, this);
     }
 
     @EventHandler(ignoreCancelled = true)
